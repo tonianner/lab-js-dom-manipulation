@@ -1,13 +1,4 @@
----
-title: Dom Manipulation lab
-type: lab
-duration: 1.25
-creator:
-  name: Gerry MATHE, Alex CHIN
-  city: London
-competencies: Programming, Server Applications
----
-> ***Note for instructors:*** _DO NOT SHOW THE COMPLEX SOLUTION BEFORE THE REVIEW._
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # DOM Manipulation Lab
 
@@ -20,6 +11,9 @@ In this lab, you are going to create a calculator with text inputs and buttons. 
 ## Exercise
 
 #### Requirements
+
+- Fork this repo
+- Clone this repo into your ~/code/labs
 
 You need to write JavaScript code for 4 different types of calculators:
 
@@ -46,6 +40,17 @@ When a user presses a "calculate button", the result should appear in the green 
 - Hide all the green boxes by default and show only one result at a time, i.e. if the user uses the basic calculator and a result is shown, then when another calculation is made with the trip calculator and the result is shown, the first answer should be automatically hidden.
 
 - For the BMI calculator, add a choice to use metric or imperial. You'll notice that there is a section commented-out in the HTML that adds a select tag. You can uncomment this to allow the user to choose which measurement system should be used. Then, you'll need to use the right formula, depending on the user's choice. The formula for BMI using the metric system is: `( Weight in Kilograms / ( Height in Meters x Height in Meters ) )`
+
+#### Submission
+1. Upon completion, run the following commands
+
+  ```
+  git add .
+  git commit -m "done"
+  git push origin master
+  ```
+1. Navigate to your repo and create a Pull Request
+1. Put the link to Pull Request to the Student Excel File
 
 #### Starter code
 
