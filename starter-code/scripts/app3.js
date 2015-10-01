@@ -1,4 +1,5 @@
 window.onload = function(){
+// cleaned up the functions in this version so I don't keep typing docuemnt... over and over.
 
 //set values from document, no need to keep typing again and again
 function getFloat(id){

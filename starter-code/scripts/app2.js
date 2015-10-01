@@ -1,5 +1,6 @@
 //window.onload = function() , didn't work for me if i used the onclick="myFunction()" in the html file
-
+//cleaned up this version to be more organized
+//onclick=('myFunction') needs to be placed in html file for this version.
 
 // BASIC 
 function calculate_BASIC() 
